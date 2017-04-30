@@ -1,0 +1,39 @@
+new_session: yes
+
+rmd_files: [
+  "index.Rmd",
+  "Introduction.Rmd",
+
+  "Foundations.Rmd",
+  "Data-structures.Rmd",
+  "Subsetting.Rmd",
+  "Functions.Rmd",
+  "memory.Rmd",
+
+  "Environments.Rmd",
+  "Exceptions-Debugging.Rmd",
+
+  "FP.Rmd",
+  "Functional-programming.Rmd",
+  "Functionals.Rmd",
+  "Function-operators.Rmd",
+
+  "OO.Rmd",
+  "OO-essentials.Rmd",
+  "base-types.Rmd",
+  "S3.Rmd",
+  "S4.Rmd",
+  "R6.Rmd",
+
+  "Meta.Rmd",
+  "Computing-on-the-language.Rmd",
+  "Expressions.Rmd",
+  "dsl.Rmd",
+
+  "Perf.Rmd",
+  "Performance.Rmd",
+  "Profiling.Rmd",
+  "Rcpp.Rmd",
+]
+
+before_chapter_script: "_common.R"
